@@ -15,3 +15,11 @@
 //     When a philosopher starts eating (after it has obtained necessary locks) it prints “starting to eat <number>” on a line by itself, where <number> is the number of the philosopher.
 
 //     When a philosopher finishes eating (before it has released its locks) it prints “finishing eating <number>” on a line by itself, where <number> is the number of the philosopher.
+
+// Draw out diagram to visualise. 
+// When 0 eats, 2 and 3 can eat.
+// 1 eat, 3 & 4 can eat
+// 2 eat, 0 & 4 can eat
+// 3 eat, 1 & 0 can eat
+// 4 eat, 2 & 1 can eat
+package main
